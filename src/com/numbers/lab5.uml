@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="390.25" y="336.0">com.numbers.NonLinear</node>
+    <node x="959.75" y="413.0">com.numbers.Vectors</node>
+    <node x="580.5" y="124.0">com.numbers.Analyst</node>
+    <node x="312.5" y="135.0">com.numbers.Slae</node>
+    <node x="134.5" y="168.0">com.numbers.Iteration</node>
+    <node x="1377.75" y="413.0">com.numbers.Matrix</node>
+    <node x="947.75" y="135.0">com.numbers.SlaeStrict</node>
+    <node x="676.5" y="0.0">com.numbers.Properties</node>
+    <node x="1197.75" y="135.0">com.numbers.Similar</node>
+    <node x="0.0" y="424.0">com.numbers.SlaeIterations</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.numbers.NonLinear" target="com.numbers.Iteration">
+      <point x="-116.75" y="-191.0" />
+      <point x="507.0" y="311.0" />
+      <point x="253.0" y="311.0" />
+      <point x="39.5" y="37.0" />
+    </edge>
+    <edge source="com.numbers.Iteration" target="com.numbers.Properties">
+      <point x="0.0" y="-37.0" />
+      <point x="213.5" y="94.0" />
+      <point x="689.3" y="94.0" />
+      <point x="-51.200000000000045" y="37.0" />
+    </edge>
+    <edge source="com.numbers.Similar" target="com.numbers.Properties">
+      <point x="0.0" y="-70.0" />
+      <point x="1339.25" y="94.0" />
+      <point x="791.7" y="94.0" />
+      <point x="51.200000000000045" y="37.0" />
+    </edge>
+    <edge source="com.numbers.Matrix" target="com.numbers.Similar">
+      <point x="0.0" y="-114.0" />
+      <point x="1530.75" y="311.0" />
+      <point x="1410.0" y="311.0" />
+      <point x="70.75" y="70.0" />
+    </edge>
+    <edge source="com.numbers.SlaeIterations" target="com.numbers.Iteration">
+      <point x="0.0" y="-103.0" />
+      <point x="-39.5" y="37.0" />
+    </edge>
+    <edge source="com.numbers.SlaeIterations" target="com.numbers.Slae">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.numbers.Slae" target="com.numbers.Matrix">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.numbers.NonLinear" target="com.numbers.Analyst">
+      <point x="116.75" y="-191.0" />
+      <point x="0.0" y="81.0" />
+    </edge>
+    <edge source="com.numbers.Analyst" target="com.numbers.Properties">
+      <point x="0.0" y="-81.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="com.numbers.Slae" target="com.numbers.Vectors">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.numbers.Slae" target="com.numbers.Properties">
+      <point x="0.0" y="-70.0" />
+      <point x="436.5" y="104.0" />
+      <point x="714.9" y="104.0" />
+      <point x="-25.600000000000023" y="37.0" />
+    </edge>
+    <edge source="com.numbers.SlaeStrict" target="com.numbers.Slae">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.numbers.Vectors" target="com.numbers.Similar">
+      <point x="0.0" y="-114.0" />
+      <point x="1158.75" y="311.0" />
+      <point x="1268.5" y="311.0" />
+      <point x="-70.75" y="70.0" />
+    </edge>
+    <edge source="com.numbers.SlaeStrict" target="com.numbers.Properties">
+      <point x="0.0" y="-70.0" />
+      <point x="1062.75" y="104.0" />
+      <point x="766.1" y="104.0" />
+      <point x="25.600000000000023" y="37.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.40000000000000013" x="112.24999999999955" y="681.2499999999998" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
