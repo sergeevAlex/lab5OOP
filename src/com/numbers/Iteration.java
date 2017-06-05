@@ -5,7 +5,8 @@ import java.util.Iterator;
 public interface Iteration extends Properties,Iterator {
 
     double fault();
-
     double stability();
+    double findQ();
+
 
 }

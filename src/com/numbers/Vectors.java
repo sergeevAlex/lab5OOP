@@ -3,7 +3,7 @@ public class Vectors implements Similar {
     private double[] vec;
     private int size;
 
-    public Vectors geom_multy(Vectors vc2){
+    public Vectors geomMulty(Vectors vc2){
         return null;
     }
 
@@ -23,20 +23,20 @@ public class Vectors implements Similar {
 
 
     @Override
-    public double Norma(){return 0.0; }
+    public double norma(){return 0.0; }
 
     @Override
-    public Vectors object_to_koef() {
+    public Vectors objectToKoef() {
         return null;
     }
 
     @Override
-    public Vectors multy_objects() {
+    public Vectors multyObjects() {
         return null;
     }
 
     @Override
-    public Vectors add_objects() {
+    public Vectors addObjects() {
         return null;
     }
 

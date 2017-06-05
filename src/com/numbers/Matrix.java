@@ -21,21 +21,26 @@ public class Matrix implements Similar {
         return 0.0;
     }
 
+    public boolean diagonal_dominating(){
+        return false;
+    }
+
+
     @Override
-    public double Norma(){
+    public double norma(){
         return 0;
     }
 
     @Override
-    public Matrix object_to_koef() {
+    public Matrix objectToKoef() {
         return null;
     }
     @Override
-    public Matrix multy_objects() {
+    public Matrix multyObjects() {
         return null;
     }
     @Override
-    public Matrix add_objects() {
+    public Matrix addObjects() {
         return null;
     }
 

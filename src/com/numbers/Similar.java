@@ -1,11 +1,9 @@
 package com.numbers;
 
 public interface Similar extends Properties {
-    Similar object_to_koef();
-    Similar multy_objects();
-    Similar add_objects();
+    Similar objectToKoef();
+    Similar multyObjects();
+    Similar addObjects();
     Similar reverse();
-    double Norma();
-
-
+    double norma();
 }
