@@ -21,10 +21,9 @@ public class Matrix implements Similar {
         return 0.0;
     }
 
-    public boolean diagonal_dominating(){
+    public boolean diagonal_dominating() {
         return false;
     }
-
 
     @Override
     public double norma(){

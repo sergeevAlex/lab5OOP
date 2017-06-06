@@ -1,12 +1,29 @@
 package com.numbers;
 
 public class BisectionNl implements NonLinearI {
-    private ArrayPolynom ap;
+    private Polynom ap;
+    private double a;
+    private double b;
 
-    BisectionNl(ArrayPolynom sd){
-        this.ap = sd;
+    public double getEps() {
+        return eps;
     }
 
+    public void setEps(double eps) {
+        this.eps = eps;
+    }
+
+    private double eps;
+
+    public BisectionNl(Polynom rr,double a,double b){
+        this.ap = rr;
+        this.a = a;
+        this.b = b;
+    }
+
+    BisectionNl(Polynom sd){
+        this.ap = sd;
+    }
 
     @Override
     public int size() {
@@ -35,6 +52,11 @@ public class BisectionNl implements NonLinearI {
 
     @Override
     public double getB() {
+        return 0;
+    }
+
+    @Override
+    public double getRoot() {
         return 0;
     }
 

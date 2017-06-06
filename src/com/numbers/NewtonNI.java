@@ -7,8 +7,6 @@ public class NewtonNI implements NonLinearI {
         this.ap = sd;
     }
 
-
-
     @Override
     public int size() {
         return 0;
@@ -36,6 +34,11 @@ public class NewtonNI implements NonLinearI {
 
     @Override
     public double getB() {
+        return 0;
+    }
+
+    @Override
+    public double getRoot() {
         return 0;
     }
 

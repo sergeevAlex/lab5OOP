@@ -48,4 +48,9 @@ public class SqrtSl implements SystemMethods {
     public Vectors changeVectors() {
         return null;
     }
+
+    @Override
+    public Vectors getRoots() {
+        return null;
+    }
 }

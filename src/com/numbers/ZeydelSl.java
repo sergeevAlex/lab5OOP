@@ -51,6 +51,11 @@ public class ZeydelSl implements SystemMethods,Iteration {
     }
 
     @Override
+    public Vectors getRoots() {
+        return null;
+    }
+
+    @Override
     public double fault() {
         return 0;
     }

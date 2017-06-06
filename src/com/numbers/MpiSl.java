@@ -51,6 +51,11 @@ public class MpiSl implements Iteration, SystemMethods {
     }
 
     @Override
+    public Vectors getRoots() {
+        return null;
+    }
+
+    @Override
     public double fault() {
         return 0;
     }

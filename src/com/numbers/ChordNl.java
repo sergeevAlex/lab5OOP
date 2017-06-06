@@ -38,6 +38,11 @@ public class ChordNl implements NonLinearI {
     }
 
     @Override
+    public double getRoot() {
+        return 0;
+    }
+
+    @Override
     public double fault() {
         return 0;
     }

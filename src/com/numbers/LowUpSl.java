@@ -1,8 +1,27 @@
 package com.numbers;
 
 public class LowUpSl implements SystemMethods {
-    private Matrix mx;
+    private Matrix L;
+    private Matrix U;
     private Vectors vc;
+
+    public LowUpSl(Matrix mx){
+        //some actions to divide on LU
+        L = mx;
+        U = mx;
+    }
+
+    public LowUpSl(Matrix lower,Matrix upper){
+        //some actions to divide on LU
+        L = lower;
+        U = upper;
+
+    }
+
+    public Vectors getRoots(){
+        Vectors result = null;
+        return result;
+    }
 
     @Override
     public int size() {

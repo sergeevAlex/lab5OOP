@@ -8,4 +8,5 @@ public interface SystemMethods extends Properties {
      int findMaxColumn();
      Matrix changeMatrix();
      Vectors changeVectors();
+     Vectors getRoots();
 }
